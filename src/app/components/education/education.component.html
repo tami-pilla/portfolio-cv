@@ -1,0 +1,46 @@
+<div class="container-fluid border border-primary mt-lg-5" id="education">
+
+    <div class="row">
+        <div class="col">
+            <h2>Educación:</h2>
+        </div>
+    </div>
+
+
+
+    <div class="row mt-lg-3">
+
+            <ul>
+                <li *ngFor="let educacion of miPortfolio">
+
+
+                    <div class="d-flex justify-content-end">
+                        <a href="#">
+                            <fa-icon [icon]="editIcon" class="fas fa-pen me-lg-4"></fa-icon>
+                        </a>
+            
+                        <a href="#" class="me-lg-5">
+                            <fa-icon [icon]="deleteIcon" class="fas fa-times"></fa-icon>
+                        </a>
+                    </div>
+
+
+                    <div class="data-container d-flex mb-lg-5">
+                        <div class="img-logo-container col-lg-6 d-flex justify-content-lg-center">
+                            <img src="" alt="logo">
+                        </div>
+
+                        <div class="data-list col-lg-6">
+                            <div>
+                                <h4>{{educacion.school}}</h4>
+                                <p>{{educacion.title}}</p>
+                                <p><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+    </div>
+</div>

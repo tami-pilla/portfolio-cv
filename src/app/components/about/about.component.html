@@ -1,0 +1,48 @@
+<div class="container-fluid border mt-lg-5 border-primary">
+    <div class="row">
+
+        <div class="col-lg-4">
+            <div class="card d-flex flex-lg-column align-items-lg-center">
+                <div id="profileImg">
+                    <img src="" alt="img">
+                    <a href="#">
+                        <fa-icon [icon]="editIcon" class="fas fa-pen"></fa-icon>
+                    </a>
+                </div>
+
+                <div class="mt-lg-3">
+                    <a href="#" class="d-flex justify-content-end">
+                        <fa-icon [icon]="editIcon" class="fas fa-pen me-lg-5"></fa-icon>
+                    </a>
+                    <p>{{miPortfolio.name}}</p>
+                    <p>{{miPortfolio.position}}</p>
+                    <p>{{miPortfolio.ubication}}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="card">
+                <div class="d-flex justify-content-lg-between">
+                    <h2>Acerca de:</h2>
+
+                    <div class="me-lg-5">
+                        <a href="#">
+                            <fa-icon [icon]="editIcon" class="fas fa-pen me-lg-4"></fa-icon>
+                        </a>
+
+                        <a href="#">
+                            <fa-icon [icon]="deleteIcon" class="fas fa-times"></fa-icon>
+                        </a>
+                    </div>
+                </div>
+
+                <p>{{miPortfolio.about}}
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,61 @@
+{
+    "name": "Tamara Agustina Pilla",
+    "backImg": "",
+    "img": "",
+    "position": "Full Stack Developer Jr",
+    "ubication": "Buenos Aires, Argentina",
+    "about": "Mi informacion resumida",
+    "experience": [
+        {
+            "company": "GoTranscript",
+            "position": "Transcriptora",
+            "img": "",
+            "start": "oct 2020",
+            "end": "actualidad",
+            "time": "1 año y 3 meses"
+        },
+        {
+            "company": "CEMIBA - Medicina Laboral",
+            "position": "Psicóloga - Selección de Personal",
+            "img": "",
+            "start": "abr 2018",
+            "end": "ene 2020",
+            "time": "1 año y 9 meses"
+        },
+        {
+            "company": "Instituto LIAISON",
+            "position": "Psicóloga Clínica",
+            "img": "",
+            "start": "may 2017",
+            "end": "ene 2020",
+            "time": "2 año y 9 meses"
+        }
+    ],
+    
+    "education": [
+        {
+            "school": "Argentina Programa",
+            "title": "Full Stack Developer",
+            "start": "abr 2021",
+            "end": "actualidad"
+        },
+        {
+            "school": "MindHub",
+            "title": "Bootcamp intensivo HTML - CSS - JS",
+            "start": "mar 2021",
+            "end": "abr 2021"
+        },
+        {
+            "school": "EducacionIT",
+            "title": "Fundamentos de una página Web",
+            "start": "ene 2020",
+            "end": "ene 2020"
+        },
+        {
+            "school": "Universidad de Buenos Aires",
+            "title": "Lic. Psicología",
+            "start": "mar 2009",
+            "end": "jun 2015"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+#profileImg img {
+    position: relative;
+}
+
+#profileImg fa-icon {
+    position: absolute;
+    top: 0.5rem;
+    left: 15rem;
+}
+
