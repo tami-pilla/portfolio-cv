@@ -1,0 +1,63 @@
+<div class="container-fluid border rounded-2" id="contact">
+
+    <div class="row">
+        <div class=" col-10 col-lg-12 d-flex flex-column align-items-center justify-content-center  ">
+            <h2 class="font-1">Contacto:</h2>
+            <fa-icon [icon]="contactIcon" class="fas fa-user"></fa-icon>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-10 col-lg-12 d-flex flex-column align-items-center">
+
+            <a class="nav-link d-flex">
+                <fa-icon [icon]="locationIcon" class="far fa-map-maker"></fa-icon>
+                Buenos Aires, Argentina.
+            </a>
+
+            <a class="nav-link" href="mailto:pilla.tamara.agustina@gmail.com" target="_blank">
+                <fa-icon [icon]="mailIcon" class="far fa-envelope"></fa-icon>
+                pilla.tamara.agustina@gmail.com
+            </a>
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-10 col-lg-12 d-flex justify-content-center">
+
+            <form [formGroup]="form">
+
+                <div class="d-flex">
+                    <div class="d-flex flex-column">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" class="form-control" formControlName="nombre">
+                    </div>
+        
+                    <div class="d-flex flex-column">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" formControlName="email">
+                    </div>
+                </div>
+        
+                <div class="d-flex flex-column">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" class="form-control" formControlName="mensaje"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" id="sumbit">
+                </div>
+        
+        
+            </form>
+        
+        </div>
+    </div>
+    
+
+
+
+</div>

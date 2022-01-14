@@ -17,8 +17,9 @@ export class AboutComponent implements OnInit {
   deleteIcon = faTimes;
   editIcon = faPen;
   
+  
 
-  constructor(private datosPortfolio:PortfolioService) { }
+  constructor(public datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
     

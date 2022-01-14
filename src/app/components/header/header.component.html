@@ -1,21 +1,28 @@
-<header class="container-fluid border " id="header">
-    <div class="row d-flex align-items-center header">
+<header class="container-fluid" id="header">
+    <div class="row d-flex  header">
 
-        <div class="col d-flex align-items-center">
-            <img [src]="miPortfolio.img" alt="logo">
-            <p class="ms-lg-4 mt-lg-2">Argentina Programa - #YoProgramo</p>
+        <div class="col-2 col-md-6 col-lg-4 d-flex mt-1 mt-lg-2 logo-img-container">
+            <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
+                target="_blank">
+                <img [src]="miPortfolio.logo" alt="logo" class="logo-img">
+            </a>
+            <p class="ms-md-2 mt-md-1 mt-3 ms-lg-3 mt-lg-1 font-2">Argentina Programa - #YoProgramo</p>
         </div>
 
-        <div class="col d-flex justify-content-end align-items-center me-lg-5">
+        <div class="col-10 col-md-6 col-lg-8 d-flex justify-content-end align-items-center login-icons">
+
+            <p class="mt-1 mt-lg-2">Login:</p>
+
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <fa-icon [icon]="linkedinIcon" class="fab fa-linkedin"></fa-icon>
+                    <a class="nav-link" routerLink="login">
+                        <fa-icon [icon]="profileIcon" class="fas fa-user"></fa-icon>
                     </a>
                 </li>
+                <!-- *ngIf="authentic.logIn" / *ngIf="!authentic.logIn"  -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <fa-icon [icon]="profileIcon" class="fas fa-user"></fa-icon>
+                    <a class="nav-link" href="">
+                        <fa-icon [icon]="logOutIcon" class="fas fa-sign-out-alt"></fa-icon>
                     </a>
                 </li>
             </ul>
@@ -23,13 +30,19 @@
 
     </div>
 
-    <div class="row border border-primary banner">
-            <div class="col">
-                <a href="#">
-                    <fa-icon [icon]="editIcon" class="fas fa-pen"></fa-icon>
-                </a>
-                <img src="/imagenes/banner.png">
-            </div>
+    <div class="row">
+        <div class="col-12 banner">
+
+            <a href="#" class="d-flex justify-content-end ">
+                <fa-icon [icon]="editIcon" class="fas fa-pen"></fa-icon>
+            </a>
+
+
+            <!-- <div class="d-flex justify-content-center">
+                <img [src]="miPortfolio.banner" class="banner-img" alt="banner">
+            </div> -->
+
+
+        </div>
     </div>
 </header>
-

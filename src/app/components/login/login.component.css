@@ -1,0 +1,177 @@
+:root {
+    --main-color: #FF8C00;
+    }
+
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.2);
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+
+   .modal {
+    width: 85vw;
+    height: 65vh;
+    background-color: white;
+    box-shadow: 3px 4px 4px gray;
+    border-radius: 8px;
+    position: relative;
+    }
+
+    .fa-times {
+       font-size: 1.1rem;
+       color: var(--main-color);
+    }
+
+    input {
+        margin-top: 1.3rem;
+    }
+
+    .form-control {
+        width: 15rem;
+        height: 2rem;
+        border: none;
+        border-bottom: 1px solid gray;
+        border-radius: 0;
+        box-shadow: none;
+        -web-kit-box-shadow: none;
+    }
+
+    .modal-container h2, .submit-btn {
+        text-align: center;
+    }
+
+    .modal-container .submit-btn button {
+        box-shadow: lightgray 5px 5px 5px;
+        -web-kit-box-shadow: none;
+        border: 2px solid var(--main-color);
+        background-color: var(--main-color);
+        color: white;
+        font-size: 0.9rem;
+        width: 6rem;
+        height: 2.2rem;
+        letter-spacing: 0.02rem;
+        transition: 0.5s;
+    }
+
+    .modal-container .submit-btn button:hover {
+        border: 2px solid var(--main-color);
+        background-color: white;
+        color: var(--main-color); 
+    }
+
+
+@media (min-width: 400px) {
+
+.modal {
+        width: 75vw;
+        height: 65vh;
+        background-color: white;
+        border-radius: 8px;
+        position: relative;
+    }
+
+
+        
+}
+
+@media (min-width: 576px) {
+
+    .modal {
+        width: 55vw;
+        height:65vh;
+        background-color: white;
+        border-radius: 10px;
+        position: relative;
+        }
+
+    .form-control {
+        width: 15rem;
+        height: 2rem;
+     
+    }
+    
+}
+
+@media only screen and (min-width: 992px){
+ 
+  .modal-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.2);
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+
+   .modal {
+    width: 35vw;
+    height:70vh;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    }
+
+    .fa-times {
+       font-size: 1.3rem;
+      
+    }
+
+    input {
+        margin-top: 0.5rem;
+    }
+
+    .form-control {
+        width: 15rem;
+        height: 2rem;
+        border: none;
+        border-bottom: 1px solid gray;
+        border-radius: 0;
+        box-shadow: none;
+        -web-kit-box-shadow: none;
+    }
+
+    .modal-container h2, .submit-btn {
+        text-align: center;
+    }
+
+    .modal-container .submit-btn button {
+        box-shadow: lightgray 5px 5px 5px;
+        -web-kit-box-shadow: none;
+        color: white;
+        font-size: 1rem;
+        width: 7rem;
+        height: 2.5rem;
+        letter-spacing: 0.02rem;
+        transition: 0.5s;
+    }
+
+  
+    
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .modal {
+        width: 30vw;
+        height: 65vh;
+        background-color: white;
+        border-radius: 8px;
+        position: relative;
+        }
+
+        .form-control {
+            width: 20rem;
+        }
+}
+

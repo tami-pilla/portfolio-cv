@@ -1,3 +1,116 @@
-#experience ul li {
-    list-style: none;
+:root {
+    --main-color: #FF8C00;
+    }
+
+* {
+    overflow: hidden;
+}
+
+    
+.container-fluid {
+    width: 90vw;
+}
+
+fa-icon {
+    font-size: 0.8rem;
+}
+
+#experience {
+    margin-top: 2rem;
+  }
+  
+#experience h2 {
+      letter-spacing: 0.05rem;
+      font-size: 1.7rem;
+      margin: 2rem 0 0 1rem;
+      color: var(--main-color);
+  }
+
+
+.data-list h4 {
+      font-size: 1.2rem;
+      font-weight: 600;
+  }
+
+.data-list p:nth-child(2) {
+    font-size: 1rem;
+}
+  
+.data-list p:nth-child(3) {
+    font-size: 0.8rem;
+}
+
+.data-list p:nth-child(4) {
+    font-size: 0.8rem;
+    color: gray;
+}
+  
+  #experience ul li {
+      list-style: none;
+  }
+  
+  
+  .img-logo {
+      width: 3rem;
+      height: 3rem;
+  }
+
+  @media only screen and (min-width: 768px) {
+ 
+     .container-fluid {
+         width: 95vw;
+     }
+ 
+ }
+
+
+@media only screen and (min-width: 992px) {
+    
+    .container-fluid {
+        width: 97vw;
+    }
+    
+  fa-icon {
+    font-size: 1rem;
+   }
+    
+    #experience {
+      margin-top: 1rem;
+    }
+    
+    #experience h2 {
+        letter-spacing: 0.05rem;
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    
+    #experience h4 {
+        letter-spacing: 0.05rem;
+        font-size: 1.5rem;
+    }
+
+    .data-list p:nth-child(2) {
+        font-size: 1.1rem;
+    }
+      
+    .data-list p:nth-child(3) {
+        font-size: 0.9rem;
+    }
+    
+    .data-list p:nth-child(4) {
+        font-size: 0.8rem;
+        color: gray;
+    }
+      
+    
+
+    .img-logo-container {
+        margin-right: 4rem;
+    }
+    
+    .img-logo {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    
 }

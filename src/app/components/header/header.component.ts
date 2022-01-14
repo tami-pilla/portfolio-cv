@@ -1,9 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faUser, faLink, faPen } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faLink, faPen, faEnvelope, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 
 import { PortfolioService } from 'src/app/services/portfolio.service';
+import { AuthService } from 'src/app/services/auth.service';
+
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 
 
@@ -16,11 +20,13 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private datosPortfolio:PortfolioService) { }
+  constructor(public datosPortfolio:PortfolioService, private http: HttpClient, private router: Router, public authentic:AuthService) { }
 
   profileIcon = faUser;
   linkedinIcon = faLink;
   editIcon = faPen;
+  mailIcon = faEnvelope;
+  logOutIcon = faSignOutAlt;
 
   miPortfolio:any;
 

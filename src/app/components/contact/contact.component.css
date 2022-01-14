@@ -1,0 +1,28 @@
+:root {
+    --main-color: #FF8C00;
+    }
+
+.container-fluid {
+    width: 90vw;
+}
+
+#contact h2 {
+    letter-spacing: 0.05rem;
+    font-size: 1.7rem;
+    /* margin: 2rem 0 0 1rem; */
+    color: var(--main-color);
+}
+  
+
+@media only screen and (min-width: 992px) {
+   
+    .container-fluid {
+        width: 97vw;
+    }
+
+    #contact h2 {
+        letter-spacing: 0.05rem;
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+}

@@ -1,22 +1,21 @@
-<div class="container-fluid border border-primary mt-lg-5" id="experience">
+<div class="container-fluid  border rounded-2" id="experience">
 
     <div class="row">
-        <div class="col">
-            <h2>Experiencia:</h2>
+        <div class="col-lg-6  d-flex justify-content-lg-center">
+            <h2 class="font-1">Experiencia:</h2>
         </div>
     </div>
 
 
 
     <div class="row mt-lg-4">
-
             <ul>
-                <li *ngFor="let experiencia of miPortfolio">
+                <li *ngFor="let experiencia of miExperiencia" class="mb-4  mb-lg-4">
 
 
-                    <div class=" d-flex justify-content-end">
+                    <div class="col-12 col-lg-11 d-flex justify-content-end justify-content-lg-end mb-4">
                         <a href="#">
-                            <fa-icon [icon]="editIcon" class="fas fa-pen me-lg-4"></fa-icon>
+                            <fa-icon [icon]="editIcon" class="fas fa-pen me-3 me-lg-4"></fa-icon>
                         </a>
             
                         <a href="#" class="me-lg-5">
@@ -25,19 +24,20 @@
                     </div>
 
 
-                    <div class="data-container d-flex mb-lg-5">
-                        <div class="img-logo-container col-lg-6 d-flex justify-content-lg-center">
-                            <img [src]="experiencia.img" alt="logo">
+                    <div class="d-flex justify-content-lg-center data-list ">
+
+                        <div class="col-3 col-lg-5 d-flex justify-content-center justify-content-lg-end img-logo-container">
+                            <img [src]="experiencia.img" alt="logo" class="img-logo">
                         </div>
 
-                        <div class="data-list col-lg-6">
-                            <div>
-                                <h4>{{experiencia.company}}</h4>
-                                <p>{{experiencia.position}}</p>
-                                <p><time>{{experiencia.start}}</time> - <time>{{experiencia.end}}</time></p>
-                                <p>{{experiencia.time}}</p>
-                            </div>
+                        <div class="data-list col-9 col-lg-7">
+                                <h4 class="font-2">{{experiencia.company}}</h4>
+                                <p class="font-1">{{experiencia.position}}</p>
+                                <p class="font-2"><time>{{experiencia.start}}</time> - <time>{{experiencia.end}}</time></p>
+                                <p class="font-2">{{experiencia.time}}</p>
+                         
                         </div>
+
                     </div>
                 </li>
 

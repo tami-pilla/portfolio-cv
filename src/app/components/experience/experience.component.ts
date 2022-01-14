@@ -15,13 +15,13 @@ export class ExperienceComponent implements OnInit {
   deleteIcon = faTimes;
   editIcon = faPen;
 
-  miPortfolio: any;
+  miExperiencia: any;
 
   constructor(private datosPortfolio: PortfolioService) { }
 
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatos().subscribe(data => {
-      this.miPortfolio = data.experience;
+      this.miExperiencia = data.experience;
     })
   }
 
