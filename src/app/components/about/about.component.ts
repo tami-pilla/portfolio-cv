@@ -12,17 +12,30 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 })
 export class AboutComponent implements OnInit {
 
-  miPortfolio:any;
+  miPortfolio: any;
 
   deleteIcon = faTimes;
   editIcon = faPen;
-  
-  
 
-  constructor(public datosPortfolio:PortfolioService) { }
+
+  constructor(public datosPortfolio: PortfolioService) { }
+
+  tituloAnimacionScroll = document.getElementById("animacion-titulo")
+
+  animacionTitulo() {
+
+    // window.scroll(this.tituloAnimacionScroll.style.opacity = 1, window.scrollY)
+
+   // window.scroll(this.tituloAnimacionScroll.classList.add(
+   //   "animacionScroll",window.scrollY > 300),
+   //   )
+
+  }
+
+
 
   ngOnInit(): void {
-    
+
     //Nos suscribumos al metodo Observable obtenerDatos()
     //Se le indica con una funcion de flecha que cuando tenga la data, esta se almacene en la variable miPorfolio (declarada mas arriba)
     this.datosPortfolio.obtenerDatos().subscribe(data => {

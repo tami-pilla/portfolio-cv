@@ -1,7 +1,9 @@
 <div class="container-fluid" id="about">
 
-    <div class="row">
-        <div class="col-12 col-lg-4 mt-1 about-info-card">
+    <div class="row d-flex justify-content-center">
+
+        <div class="col-12 col-lg-5 mt-2 mt-lg-2 about-info-card">
+
             <div class="card border border-0 d-flex flex-column align-items-center">
 
                 <div id="img-profile-container" class="d-flex">
@@ -11,25 +13,48 @@
                     </a>
                 </div>
 
-                <div class="font-2 about-info d-flex">
-                    <div>
-                        <p>{{miPortfolio.name}}</p>
-                        <p>{{miPortfolio.position}}</p>
-                    </div>
+                <div class="font-2  about-info d-flex flex-column align-items-center">
+                    
+                        <a href="#" class="d-flex justify-content-end  justify-content-lg-center">
+                            <fa-icon [icon]="editIcon" class="fas fa-pen ms-5 ms-lg-3"></fa-icon>
+                        </a>
 
-                    <a href="#" class="d-flex justify-content-end  justify-content-lg-center">
-                        <fa-icon [icon]="editIcon" class="fas fa-pen ms-5 ms-lg-3"></fa-icon>
-                    </a>
+
+                        <p>{{miPortfolio.name}}</p>
+
+                        <p>{{miPortfolio.position}}</p>
+
+                        <p class="mt-lg-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#FF8C00"><path d="M0 0h24v24H0z" fill="none" /><path d="M12 12c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm6-1.8C18 6.57 15.35 4 12 4s-6 2.57-6 6.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14zM12 2c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C4 5.22 7.8 2 12 2z" />
+                            </svg>
+                            Buenos Aires, Argentina.
+                        </p>
+
+                        <a href="mailto:pilla.tamara.agustina@gmail.com" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#FF8C00"><path d="M0 0h24v24H0V0z" fill="none" /><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z" />
+                            </svg>
+                            pilla.tamara.agustina@gmail.com
+                        </a>
+                
+
+
                 </div>
             </div>
         </div>
 
+        <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center animacion-intro">
+            <i>Aca iria una mini animacion</i>
+        </div>
 
 
-        <div class="col-10 col-lg-7 d-flex flex-column about-text-card">
-            <div class="card border border-0">
+
+        <div class="col-11 col-lg-8  about-text-card">
+            <div class="card border border-0 ">
                 <div class="d-flex justify-content-between  justify-content-lg-between">
-                    <h2 class="font-1">Sobre mi:</h2>
+
+                    <h2 class="font-1 mb-3 animacion-titulo" id="animacion-titulo" (scroll)="animacionTitulo()">Sobre mi:</h2>
 
                     <div class="me-lg-5 about-icons">
                         <a href="#">

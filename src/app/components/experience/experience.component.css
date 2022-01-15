@@ -8,7 +8,7 @@
 
     
 .container-fluid {
-    width: 90vw;
+    width: 95vw;
 }
 
 fa-icon {
@@ -16,19 +16,33 @@ fa-icon {
 }
 
 #experience {
-    margin-top: 2rem;
+    margin-top: 6rem;
   }
+
+  #experience h2 {
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+    color: var(--main-color);
+    border: 0;
+    border-bottom: 1px solid var(--main-color);
+}
+
+  #experience li {
+    padding: 1rem 1rem;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 3px 3px 3px lightgray;
+}
   
-#experience h2 {
-      letter-spacing: 0.05rem;
-      font-size: 1.7rem;
-      margin: 2rem 0 0 1rem;
-      color: var(--main-color);
-  }
+
+ .data-list {
+    margin-left: 1.5rem;
+}
 
 
 .data-list h4 {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       font-weight: 600;
   }
 
@@ -51,8 +65,8 @@ fa-icon {
   
   
   .img-logo {
-      width: 3rem;
-      height: 3rem;
+      width: 3.5rem;
+      height: 3.5rem;
   }
 
   @media only screen and (min-width: 768px) {
@@ -67,7 +81,7 @@ fa-icon {
 @media only screen and (min-width: 992px) {
     
     .container-fluid {
-        width: 97vw;
+        width: 95vw;
     }
     
   fa-icon {
@@ -75,20 +89,30 @@ fa-icon {
    }
     
     #experience {
-      margin-top: 1rem;
+      margin-top: 7rem;
     }
     
-    #experience h2 {
-        letter-spacing: 0.05rem;
-        font-size: 2rem;
-        margin-top: 2rem;
-    }
-    
-    #experience h4 {
-        letter-spacing: 0.05rem;
-        font-size: 1.5rem;
+    #experience li {
+        padding: 1rem 0;
+        box-shadow: 3px 2px 4px lightgray;
     }
 
+    #experience h2 {
+        letter-spacing: 0.2rem;
+        font-size: 2.2rem;
+        margin-top: 0 0 3rem 0;
+        border: 0;
+        border-bottom: 2px solid var(--main-color);
+    }
+    
+    .data-list h4 {
+        letter-spacing: 0.05rem;
+        font-size: 1.4rem;
+    }
+
+    .data-list-container, .data-list {
+        margin-left: 6rem;
+    }
     .data-list p:nth-child(2) {
         font-size: 1.1rem;
     }
@@ -101,16 +125,11 @@ fa-icon {
         font-size: 0.8rem;
         color: gray;
     }
-      
-    
 
-    .img-logo-container {
-        margin-right: 4rem;
-    }
     
     .img-logo {
-        width: 4.5rem;
-        height: 4.5rem;
+        width: 5rem;
+        height: 5rem;
     }
     
 }
