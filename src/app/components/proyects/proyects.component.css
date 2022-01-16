@@ -1,3 +1,8 @@
+:root {
+    --main-color: #FF8C00;
+    }
+
+
 .container-fluid {
     width: 90vw;
 }
@@ -11,8 +16,17 @@ fa-icon {
 }
 
 #proyects h2 {
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.1rem;
     font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: var(--main-color);
+}
+
+.proyect-container {
+    width: 20rem;
+    height: 10rem;
+   
 }
 
 
@@ -27,12 +41,19 @@ fa-icon {
     }
        
         #proyects {
-            margin-top: 3rem;
+            margin-top: 10rem;
         }
         
         #proyects h2 {
-            letter-spacing: 0.05rem;
-            font-size: 2rem;
+            letter-spacing: 0.2rem;
+            font-size: 2.3rem;
+            margin-bottom: 3rem;
+            
+        }
+
+        .proyect-container {
+            width: 30rem;
+            height: 20rem;
         }
     
     }

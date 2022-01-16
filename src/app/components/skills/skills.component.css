@@ -1,5 +1,9 @@
+:root {
+    --main-color: #FF8C00;
+    }
+
 .container-fluid {
-    width: 90vw;
+    width: 95vw;
 }
 
 fa-icon {
@@ -10,8 +14,10 @@ fa-icon {
 }
 
 #skills h2 {
-    letter-spacing: 0.05rem;
-    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    color: var(--main-color);
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 992px) {
@@ -25,13 +31,13 @@ fa-icon {
         font-size: 1rem;
     }
        
-        #skills {
-            margin-top: 3rem;
-        }
+    #skills {
+    margin-top: 3rem;
+     }
         
-        #skills h2 {
-            letter-spacing: 0.05rem;
-            font-size: 2rem;
-        }
+    #skills h2 {
+    letter-spacing: 0.2rem;
+    font-size: 2.1rem;
+    }
     
     }

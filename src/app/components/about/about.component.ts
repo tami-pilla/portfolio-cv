@@ -24,11 +24,11 @@ export class AboutComponent implements OnInit {
 
   animacionTitulo() {
 
-    // window.scroll(this.tituloAnimacionScroll.style.opacity = 1, window.scrollY)
+    // window.scroll(this.tituloAnimacionScroll.style.opacity = 1, window.scrollY > 300);
 
-   // window.scroll(this.tituloAnimacionScroll.classList.add(
-   //   "animacionScroll",window.scrollY > 300),
-   //   )
+    //  window.scroll(this.tituloAnimacionScroll.classList.add(
+    //  "animacionScroll", window.scrollY > 300);
+    //   )
 
   }
 
