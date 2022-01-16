@@ -20,6 +20,9 @@ export class ExperienceComponent implements OnInit {
   constructor(private datosPortfolio: PortfolioService) { }
 
   ngOnInit(): void {
+
+    //Nos suscribumos al metodo Observable obtenerDatos()
+    //Se le indica con una funcion de flecha que cuando tenga la data, esta se almacene en la variable miExperiencia (declarada mas arriba)
     this.datosPortfolio.obtenerDatos().subscribe(data => {
       this.miExperiencia = data.experience;
     })

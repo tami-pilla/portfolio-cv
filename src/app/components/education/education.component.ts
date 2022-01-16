@@ -23,7 +23,7 @@ export class EducationComponent implements OnInit {
   ngOnInit(): void {
 
     //Nos suscribumos al metodo Observable obtenerDatos()
-    //Se le indica con una funcion de flecha que cuando tenga la data, esta se almacene en la variable miPorfolio (declarada mas arriba)
+    //Se le indica con una funcion de flecha que cuando tenga la data, esta se almacene en la variable miEducacion (declarada mas arriba)
     this.datosPortfolio.obtenerDatos().subscribe(data => {
       this.miEducacion = data.education;
     });

@@ -17,6 +17,7 @@ export class ContactComponent implements OnInit {
   mailIcon = faEnvelope;
   locationIcon = faMapMarker;
 
+
   form: FormGroup;
 
   constructor(private formBuilder: FormBuilder) {
@@ -26,6 +27,19 @@ export class ContactComponent implements OnInit {
       mensaje:['',[]]
     })
    }
+
+   onEnviar(event: Event) {
+     //Se detiene la ejecucion o propagacion del comportamiento del boton submit
+     event.preventDefault;
+
+     if (this.form.valid) {
+       // Se llama al servicio para enviar los datos al servidor
+     }else {
+       // Se corren las validaciones para que aparezcan mesnajes de error en el template
+       this.form.markAllAsTouched();
+     }
+
+    }
 
 
   ngOnInit(): void {
