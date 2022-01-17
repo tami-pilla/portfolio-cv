@@ -73,8 +73,6 @@ fa-icon {
     font-weight: bold;
     margin: 0rem 0 0 0rem;
     color: var(--main-color);
-   /* border: 0;
-   border-bottom: 1px solid var(--main-color); */
 }
 
 .animacion-intro i {
@@ -82,7 +80,7 @@ fa-icon {
  color: var(--main-color);
 }
 
-.animacion-titulo {
+/* .animacion-titulo {
     opacity: 0;
     transition: 2s;
   }
@@ -99,10 +97,10 @@ fa-icon {
     100% {
         transform: translateX(0);
     }
-}
+} */
 
 #about .about-text-card {
-    margin-top: 8rem;
+    margin-top: 10rem;
 }
 
 #about .about-text {
@@ -151,7 +149,7 @@ fa-icon {
         letter-spacing: 0.2rem;
         font-size: 2.2rem;
     }
-
+/* 
     .animacion-titulo {
         opacity: 0;
         transition: 2s;
@@ -169,7 +167,7 @@ fa-icon {
         100% {
             transform: translateX(0);
         }
-    }
+    } */
     
     #about .about-info-card {
         position: relative;
@@ -208,7 +206,7 @@ fa-icon {
     }
 
     #about .about-text-card {
-        margin-top: 6rem;
+        margin-top: 9rem;
     }
 
     #about .about-text {
