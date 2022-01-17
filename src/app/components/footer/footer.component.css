@@ -1,5 +1,16 @@
 :root {
-    --main-color: #FF8C00;
+    --main-color: #C71585;
+    }
+
+    #footer {
+        margin-top: 6rem;
+ 
+     }
+
+    #footer p {
+        font-size: 0.8rem;
+        letter-spacing: 0.03rem;
+        color: var(--main-color); 
     }
 
 
@@ -8,15 +19,9 @@
 
     #footer {
        margin-top: 10rem;
-       /* background-color: rgba(255, 140, 0,0.7); */
-
     }
 
     #footer p {
         font-size: 0.9rem;
-        letter-spacing: 0.05rem;
-        color: var(--main-color);
-    
-        
     }
 }
