@@ -7,7 +7,8 @@
             <div class="card border border-0 d-flex flex-column align-items-center">
 
                 <div id="img-profile-container" class="d-flex">
-                    <img [src]="miPortfolio.profileImg" alt="img" class="img-profile rounded-circle">
+                    <!--    // "profileImg": "assets/imagenes/profile.jpg", -->
+                    <img [src]="miPortfolio.profileImg" alt="img" class="img-profile rounded-circle bg-white">
                     <a href="#">
                         <fa-icon [icon]="editIcon" class="fas fa-pen"></fa-icon>
                     </a>
@@ -20,7 +21,7 @@
                         </a>
 
 
-                        <p class="font-1">{{miPortfolio.name}}</p>
+                        <p class="font-1 fw-bold">{{miPortfolio.name}}</p>
 
                         <p>{{miPortfolio.position}}</p>
 

@@ -37,14 +37,10 @@ fa-icon {
 }
   
 
- .data-list {
-    margin-left: 1.5rem;
-}
-
 
 .data-list h4 {
-      font-size: 1.1rem;
-      font-weight: 600;
+      font-size: 1rem;
+      font-weight: 500;
   }
 
 .data-list p:nth-child(2) {
@@ -56,7 +52,7 @@ fa-icon {
 }
 
 .data-list p:nth-child(4) {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: gray;
 }
   
@@ -68,6 +64,7 @@ fa-icon {
   .img-logo {
       width: 3.5rem;
       height: 3.5rem;
+      box-shadow: 3px 2px 4px lightgray;
   }
 
   @media only screen and (min-width: 768px) {
@@ -112,17 +109,22 @@ fa-icon {
     .data-list h4 {
         letter-spacing: 0.05rem;
         font-size: 1.4rem;
+        font-weight: 400;
     }
 
     .data-list-container, .data-list {
         margin-left: 6rem;
     }
+ 
     .data-list p:nth-child(2) {
         font-size: 1rem;
+       
     }
       
     .data-list p:nth-child(3) {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+        
+        
     }
     
     .data-list p:nth-child(4) {
@@ -134,6 +136,10 @@ fa-icon {
     .img-logo {
         width: 5rem;
         height: 5rem;
+        box-shadow: 3px 2px 4px lightgray;
     }
     
 }
+
+
+    

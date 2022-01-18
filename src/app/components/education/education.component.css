@@ -35,13 +35,10 @@ fa-icon {
     box-shadow: 3px 3px 3px lightgray;
 }
 
-.data-list {
-    margin-left: 1.5rem;
-}
 
 
 .data-list h4 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -59,8 +56,9 @@ fa-icon {
 
 
 .img-logo {
-    width: 3rem;
-    height: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    box-shadow: 3px 2px 4px lightgray;
 }
 
 @media only screen and (min-width: 768px) {
@@ -101,11 +99,14 @@ fa-icon {
     #education h4 {
         letter-spacing: 0.05rem;
         font-size: 1.4rem;
+        font-weight: 400;
     }
     
     .data-list-container, .data-list {
         margin-left: 6rem;
     }
+
+
  
     .data-list p:nth-child(2) {
         font-size: 1rem;
@@ -119,11 +120,10 @@ fa-icon {
         font-size: 0.8rem;
         color: gray;
     }
-    
-  
      
     .img-logo {
         width: 4.5rem;
         height: 4.5rem;
+        box-shadow: 3px 2px 4px lightgray;
     } 
 }
