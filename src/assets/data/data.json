@@ -1,9 +1,10 @@
 {
-    "name": "Tamara Agustina Pilla",
-    
-     "banner": "assets/imagenes/banner.jpg",
+    "banner": "assets/imagenes/banner.jpg",
     "logo": "assets/imagenes/logo.png",
+    "name": "Tamara Agustina Pilla",
     "position": "Full Stack Developer Jr",
+    "location": "Buenos Aires, Argentina",
+    "mail": "pilla.tamara.agustina@gamil.com",
     "about": "Mi informacion resumida. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima voluptatem, sed dignissimos repellendus magnam eaque quod reiciendis soluta debitis earum explicabo nobis cum saepe. Accusantium recusandae quasi veritatis beatae rerum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima voluptatem, sed dignissimos repellendus magnam eaque quod reiciendis soluta debitis earum explicabo nobis cum saepe. Accusantium recusandae quasi veritatis beatae rerum!",
  
     "experience": [

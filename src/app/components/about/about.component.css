@@ -94,11 +94,11 @@ fa-icon {
 
 @keyframes animacionScroll {
     0% {
-        transform: translateX(-60px);
+        transform: translateY(-60px);
     }
 
     100% {
-        transform: translateX(0);
+        transform: translateY(0);
     }
 } */
 

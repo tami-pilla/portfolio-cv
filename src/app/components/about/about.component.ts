@@ -60,8 +60,19 @@ export class AboutComponent implements OnInit {
     const scrollNum = scrollY > 500
 
     if (elementoPosition > scrollNum) {
-     this.state = 'scrolled';
+      this.state = 'scrolled';
     }
+
+  }
+
+  titulo = document.getElementById("animacion-titulo");
+
+  animacionTitulo() {
+    // window.scroll(this.titulo.style.opacity = 1, window.scrollY)
+
+    // window.scroll(this.titulo.classList.add(
+    //   "animacionScroll",window.scrollY > 300),
+    //   )
 
   }
 
